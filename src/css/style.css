@@ -1,0 +1,9 @@
+.gameSquare{
+    width: 728px;
+    margin: auto;
+}
+.gameSquare input{
+    float: left;
+    width: 80px;
+    margin: 0;
+}
