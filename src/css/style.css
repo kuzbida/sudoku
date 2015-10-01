@@ -1,9 +1,18 @@
 .gameSquare{
-    width: 728px;
+    width: 548px;
     margin: auto;
 }
 .gameSquare input{
     float: left;
-    width: 80px;
+    width: 60px;
+    height: 60px;
     margin: 0;
+    font-size: 32px;
+    border: 1px solid #c9c9c9;
+}
+.gameSquare input[data-col="3"], .gameSquare input[data-col="6"]{
+    border-right: 2px solid #000000;
+}
+.gameSquare input[data-row="3"], .gameSquare input[data-row="6"]{
+    border-bottom: 2px solid #000000;
 }
