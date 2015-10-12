@@ -9,6 +9,11 @@
     margin: 0;
     font-size: 32px;
     border: 1px solid #c9c9c9;
+    text-align: center;
+}
+.gameSquare input.error{
+    border: 1px solid red;
+    background-color: red;
 }
 .gameSquare input[data-col="3"], .gameSquare input[data-col="6"]{
     border-right: 2px solid #000000;
